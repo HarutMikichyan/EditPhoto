@@ -13,14 +13,14 @@
 		701FB6DC235481690082E6C0 /* EditPhoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 701FB6DA235481690082E6C0 /* EditPhoto.xcdatamodeld */; };
 		701FB6DE2354816A0082E6C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701FB6DD2354816A0082E6C0 /* Assets.xcassets */; };
 		701FB6E12354816A0082E6C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701FB6DF2354816A0082E6C0 /* LaunchScreen.storyboard */; };
-		701FB6E9235481F10082E6C0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701FB6E8235481F10082E6C0 /* HomeViewController.swift */; };
-		701FB6EB235481FD0082E6C0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701FB6EA235481FD0082E6C0 /* SearchViewController.swift */; };
-		701FB6ED2354820D0082E6C0 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701FB6EC2354820D0082E6C0 /* EditViewController.swift */; };
-		701FB6EF235482200082E6C0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701FB6EE235482200082E6C0 /* ProfileViewController.swift */; };
 		701FB6F2235482CB0082E6C0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701FB6F1235482CB0082E6C0 /* Home.storyboard */; };
 		701FB6F4235482E30082E6C0 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701FB6F3235482E30082E6C0 /* Search.storyboard */; };
 		701FB6F6235482ED0082E6C0 /* Edit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701FB6F5235482ED0082E6C0 /* Edit.storyboard */; };
 		701FB6F8235482F80082E6C0 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701FB6F7235482F80082E6C0 /* Profile.storyboard */; };
+		7086D9DA23549EDF000318CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7086D9D923549EDF000318CA /* HomeViewController.swift */; };
+		7086D9DC23549F51000318CA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7086D9DB23549F51000318CA /* SearchViewController.swift */; };
+		7086D9DE23549F6D000318CA /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7086D9DD23549F6D000318CA /* EditViewController.swift */; };
+		7086D9E023549F7C000318CA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7086D9DF23549F7C000318CA /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,14 +32,14 @@
 		701FB6DD2354816A0082E6C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		701FB6E02354816A0082E6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		701FB6E22354816A0082E6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		701FB6E8235481F10082E6C0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
-		701FB6EA235481FD0082E6C0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = ../SearchViewController.swift; sourceTree = "<group>"; };
-		701FB6EC2354820D0082E6C0 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditViewController.swift; path = ../EditViewController.swift; sourceTree = "<group>"; };
-		701FB6EE235482200082E6C0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
 		701FB6F1235482CB0082E6C0 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		701FB6F3235482E30082E6C0 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		701FB6F5235482ED0082E6C0 /* Edit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Edit.storyboard; path = ../Edit.storyboard; sourceTree = "<group>"; };
 		701FB6F7235482F80082E6C0 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		7086D9D923549EDF000318CA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7086D9DB23549F51000318CA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7086D9DD23549F6D000318CA /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		7086D9DF23549F7C000318CA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 		7086D9D52354928D000318CA /* ProileViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				701FB6EE235482200082E6C0 /* ProfileViewController.swift */,
+				7086D9DF23549F7C000318CA /* ProfileViewController.swift */,
 			);
 			path = ProileViewControllers;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 		7086D9D623549290000318CA /* EditViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				701FB6EC2354820D0082E6C0 /* EditViewController.swift */,
+				7086D9DD23549F6D000318CA /* EditViewController.swift */,
 			);
 			path = EditViewControllers;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 		7086D9D723549293000318CA /* SearchViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				701FB6EA235481FD0082E6C0 /* SearchViewController.swift */,
+				7086D9DB23549F51000318CA /* SearchViewController.swift */,
 			);
 			path = SearchViewControllers;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 		7086D9D823549295000318CA /* HomeViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				701FB6E8235481F10082E6C0 /* HomeViewController.swift */,
+				7086D9D923549EDF000318CA /* HomeViewController.swift */,
 			);
 			path = HomeViewControllers;
 			sourceTree = "<group>";
@@ -254,13 +254,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				701FB6EB235481FD0082E6C0 /* SearchViewController.swift in Sources */,
-				701FB6E9235481F10082E6C0 /* HomeViewController.swift in Sources */,
+				7086D9DC23549F51000318CA /* SearchViewController.swift in Sources */,
 				701FB6D2235481690082E6C0 /* AppDelegate.swift in Sources */,
+				7086D9DE23549F6D000318CA /* EditViewController.swift in Sources */,
 				701FB6DC235481690082E6C0 /* EditPhoto.xcdatamodeld in Sources */,
+				7086D9E023549F7C000318CA /* ProfileViewController.swift in Sources */,
 				701FB6D4235481690082E6C0 /* SceneDelegate.swift in Sources */,
-				701FB6EF235482200082E6C0 /* ProfileViewController.swift in Sources */,
-				701FB6ED2354820D0082E6C0 /* EditViewController.swift in Sources */,
+				7086D9DA23549EDF000318CA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
