@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nau-vk-4KK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="ogb-ai-foJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="Xg1-cA-nnl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="0LF-Oh-lhD"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mWH-gG-Ir5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68" y="-196"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zDG-ga-JPV">
+            <objects>
+                <tabBarController id="Nau-vk-4KK" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="C5i-GV-Cyu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Xg1-cA-nnl" kind="relationship" relationship="viewControllers" id="pAq-7l-SjX"/>
+                        <segue destination="oSf-qu-LLV" kind="relationship" relationship="viewControllers" id="RBE-bF-UAS"/>
+                        <segue destination="wdr-Bs-Xjp" kind="relationship" relationship="viewControllers" id="2nQ-Ae-3Rm"/>
+                        <segue destination="ys8-T0-pdt" kind="relationship" relationship="viewControllers" id="DTK-Wn-1FV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6PD-eB-XnC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313" y="-637"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="K7a-MF-Zn0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Search" id="oSf-qu-LLV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="PNj-pz-84w"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uo3-CR-icb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172" y="-196"/>
+        </scene>
+        <!--Edit-->
+        <scene sceneID="j5n-dm-ecA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Edit" id="wdr-Bs-Xjp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="DXJ-HD-3t0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W7g-Vj-se3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439" y="-196"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="52Y-QQ-PMC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="ys8-T0-pdt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="07U-bV-mZw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6uO-FM-grs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="671" y="-196"/>
+        </scene>
+    </scenes>
+</document>
